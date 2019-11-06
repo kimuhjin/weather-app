@@ -13,9 +13,8 @@
         weather,
         name,
         sys:{country}
-
       }
-      
+
 >render() {
     const { isLoading, temp, condition, place,con, temp_max, temp_min} = this.state;
     return isLoading ? (
@@ -23,8 +22,7 @@
     ) : (
       <Weather temp={Math.round(temp)} condition={condition} place={place} con={con}
       temp_max={Math.round(temp_max)} temp_min={Math.round(temp_min)}/>
-    );
-  }
+    );}
 
 
 
