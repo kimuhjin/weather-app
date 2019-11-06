@@ -36,8 +36,8 @@ const weatherOptions = {
   Clear: {
     iconName: "weather-sunny",
     gradient: ["#FF7300", "#FEF253"],
-    title: "Sunny as fuck",
-    subtitle: "Go get your ass burnt"
+    title: "맑음",
+    subtitle: "현재 날씨는 맑음 입니다."
   },
   Clouds: {
     iconName: "weather-cloudy",
